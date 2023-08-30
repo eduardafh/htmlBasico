@@ -1,0 +1,23 @@
+.header{
+    background-color: aqua;
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flex-item{
+    flex: 1;
+    border: 1px solid #333;
+    padding: 1rem;
+    min-width: 265px
+}
+.footer{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}

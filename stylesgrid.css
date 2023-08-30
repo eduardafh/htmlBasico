@@ -1,0 +1,21 @@
+.header{
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    padding: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+}
+.grid-item{
+    border: 1px solid rgb(116, 116, 235);
+    padding: 1rem;
+}
+.footer{
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    padding: 1rem;
+}
